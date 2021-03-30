@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  border: 1px solid red;
+  height: 55px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-logo {
+  margin: 12px;
+  border: 1px solid green;
+}
+
+.nav-logo button {
+  padding: 5px 40px;
+}
+
+.nav-element {
+  margin: 10px;
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-list {
+  padding: 10px;
+}
