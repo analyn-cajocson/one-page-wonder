@@ -73,19 +73,24 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  position: relative;
+}
+.content-details {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
 }
 
 .content-text {
   border: 1px solid red;
   text-align: justify;
-  margin: 70px 80px;
-
 }
 
 .content-text h3 {
   font-size: 2.5em;
   font-weight: bold;
-  margin: 25px
 }
 
 .content-text span {
@@ -94,14 +99,10 @@ body {
 
 .content-text p {
   /* padding: 0px 10px; */
-  margin: 25px;
   /* padding-right: 300px; */
 }
 
-.content-details {
-  border: 1px solid black;
-  display: flex;
-}
+
 
 .content-image {
   /* padding: 20px 70px; */
@@ -110,7 +111,8 @@ body {
 
 .content-image img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
+
   border-radius: 50%;
 }
 
